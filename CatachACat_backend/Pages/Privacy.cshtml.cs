@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace CatachACat_backend.Pages
+namespace CatchACat_backend.Pages
 {
 	public class PrivacyModel : PageModel
 	{

@@ -1,4 +1,4 @@
-using CatachACat_backend.Services;
+using CatchACat_backend.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
