@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CatachACat_backend")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+af7d2524422bb9a940c9821762375f7416385a4b")]
 [assembly: System.Reflection.AssemblyProductAttribute("CatachACat_backend")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CatachACat_backend")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

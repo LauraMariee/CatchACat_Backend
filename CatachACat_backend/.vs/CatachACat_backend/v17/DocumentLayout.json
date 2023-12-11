@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Laura\\OneDrive\\Desktop\\CatchACat_Backend\\CatachACat_backend\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D9307678-D5FB-417A-9833-9FDF9A38E1B2}|CatachACat_backend.csproj|c:\\users\\laura\\onedrive\\desktop\\catchacat_backend\\catachacat_backend\\api\\cattablecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9307678-D5FB-417A-9833-9FDF9A38E1B2}|CatachACat_backend.csproj|solutionrelative:api\\cattablecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9307678-D5FB-417A-9833-9FDF9A38E1B2}|CatachACat_backend.csproj|c:\\users\\laura\\onedrive\\desktop\\catchacat_backend\\catachacat_backend\\models\\cattable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9307678-D5FB-417A-9833-9FDF9A38E1B2}|CatachACat_backend.csproj|solutionrelative:models\\cattable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9307678-D5FB-417A-9833-9FDF9A38E1B2}|CatachACat_backend.csproj|c:\\users\\laura\\onedrive\\desktop\\catchacat_backend\\catachacat_backend\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9307678-D5FB-417A-9833-9FDF9A38E1B2}|CatachACat_backend.csproj|solutionrelative:models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D9307678-D5FB-417A-9833-9FDF9A38E1B2}|CatachACat_backend.csproj|c:\\users\\laura\\onedrive\\desktop\\catchacat_backend\\catachacat_backend\\models\\cattype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D9307678-D5FB-417A-9833-9FDF9A38E1B2}|CatachACat_backend.csproj|solutionrelative:models\\cattype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D9307678-D5FB-417A-9833-9FDF9A38E1B2}|CatachACat_backend.csproj|c:\\users\\laura\\onedrive\\desktop\\catchacat_backend\\catachacat_backend\\api\\catcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D9307678-D5FB-417A-9833-9FDF9A38E1B2}|CatachACat_backend.csproj|solutionrelative:api\\catcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D9307678-D5FB-417A-9833-9FDF9A38E1B2}|CatachACat_backend.csproj|c:\\users\\laura\\onedrive\\desktop\\catchacat_backend\\catachacat_backend\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D9307678-D5FB-417A-9833-9FDF9A38E1B2}|CatachACat_backend.csproj|solutionrelative:models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D9307678-D5FB-417A-9833-9FDF9A38E1B2}|CatachACat_backend.csproj|c:\\users\\laura\\onedrive\\desktop\\catchacat_backend\\catachacat_backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -50,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,7 +66,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
+              "Title": "CatTable.cs",
+              "DocumentMoniker": "C:\\Users\\Laura\\OneDrive\\Desktop\\CatchACat_Backend\\CatachACat_backend\\Models\\CatTable.cs",
+              "RelativeDocumentMoniker": "Models\\CatTable.cs",
+              "ToolTip": "C:\\Users\\Laura\\OneDrive\\Desktop\\CatchACat_Backend\\CatachACat_backend\\Models\\CatTable.cs",
+              "RelativeToolTip": "Models\\CatTable.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-11T15:42:35.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CatTableController.cs",
+              "DocumentMoniker": "C:\\Users\\Laura\\OneDrive\\Desktop\\CatchACat_Backend\\CatachACat_backend\\api\\CatTableController.cs",
+              "RelativeDocumentMoniker": "api\\CatTableController.cs",
+              "ToolTip": "C:\\Users\\Laura\\OneDrive\\Desktop\\CatchACat_Backend\\CatachACat_backend\\api\\CatTableController.cs",
+              "RelativeToolTip": "api\\CatTableController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-11T15:41:45.921Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Laura\\OneDrive\\Desktop\\CatchACat_Backend\\CatachACat_backend\\Pages\\Index.cshtml",
               "RelativeDocumentMoniker": "Pages\\Index.cshtml",
@@ -70,7 +104,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Laura\\OneDrive\\Desktop\\CatchACat_Backend\\CatachACat_backend\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -82,19 +116,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "CatController.cs",
               "DocumentMoniker": "C:\\Users\\Laura\\OneDrive\\Desktop\\CatchACat_Backend\\CatachACat_backend\\api\\CatController.cs",
               "RelativeDocumentMoniker": "api\\CatController.cs",
               "ToolTip": "C:\\Users\\Laura\\OneDrive\\Desktop\\CatchACat_Backend\\CatachACat_backend\\api\\CatController.cs",
               "RelativeToolTip": "api\\CatController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAMAAAA",
+              "ViewState": "AQIAAAEAAAAAAAAAAADwvywAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-12-11T11:19:03.969Z"
+              "WhenOpened": "2023-12-11T11:19:03.969Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "CatachACat_backend.csproj",
               "DocumentMoniker": "C:\\Users\\Laura\\OneDrive\\Desktop\\CatchACat_Backend\\CatachACat_backend\\CatachACat_backend.csproj",
               "RelativeDocumentMoniker": "CatachACat_backend.csproj",
@@ -112,13 +147,14 @@
               "RelativeDocumentMoniker": "Models\\AppDbContext.cs",
               "ToolTip": "C:\\Users\\Laura\\OneDrive\\Desktop\\CatchACat_Backend\\CatachACat_backend\\Models\\AppDbContext.cs",
               "RelativeToolTip": "Models\\AppDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAFAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-12-07T13:19:53.818Z"
+              "WhenOpened": "2023-12-07T13:19:53.818Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "DatabaseService.cs",
               "DocumentMoniker": "C:\\Users\\Laura\\OneDrive\\Desktop\\CatchACat_Backend\\CatachACat_backend\\Services\\DatabaseService.cs",
               "RelativeDocumentMoniker": "Services\\DatabaseService.cs",
@@ -130,7 +166,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Laura\\OneDrive\\Desktop\\CatchACat_Backend\\CatachACat_backend\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -142,7 +178,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Index.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\Laura\\OneDrive\\Desktop\\CatchACat_Backend\\CatachACat_backend\\Pages\\Index.cshtml.cs",
               "RelativeDocumentMoniker": "Pages\\Index.cshtml.cs",
@@ -150,11 +186,12 @@
               "RelativeToolTip": "Pages\\Index.cshtml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-12-06T14:34:20.898Z"
+              "WhenOpened": "2023-12-06T14:34:20.898Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "JsonFileCatService.cs",
               "DocumentMoniker": "C:\\Users\\Laura\\OneDrive\\Desktop\\CatchACat_Backend\\CatachACat_backend\\Services\\JsonFileCatService.cs",
               "RelativeDocumentMoniker": "Services\\JsonFileCatService.cs",
@@ -162,17 +199,18 @@
               "RelativeToolTip": "Services\\JsonFileCatService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-12-06T13:52:59.506Z"
+              "WhenOpened": "2023-12-06T13:52:59.506Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "CatType.cs",
               "DocumentMoniker": "C:\\Users\\Laura\\OneDrive\\Desktop\\CatchACat_Backend\\CatachACat_backend\\Models\\CatType.cs",
               "RelativeDocumentMoniker": "Models\\CatType.cs",
               "ToolTip": "C:\\Users\\Laura\\OneDrive\\Desktop\\CatchACat_Backend\\CatachACat_backend\\Models\\CatType.cs",
               "RelativeToolTip": "Models\\CatType.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2023-12-06T13:37:57.653Z",
               "EditorCaption": ""

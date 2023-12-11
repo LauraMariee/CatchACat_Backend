@@ -3,14 +3,14 @@ GO
 IF NOT EXISTS (
    SELECT name
    FROM sys.databases
-   WHERE name = N'TutorialDB'
+   WHERE name = N'Catch-A-Cat'
 )
-CREATE DATABASE [TutorialDB]
+CREATE DATABASE [Catch-A-Cat]
 GO
 
 -----------------------------------------------------------------------
 
-USE [TutorialDB]
+USE [Catch-A-Cat]
 -- Create a new table called 'CatType' in schema 'dbo'
 -- Drop the table if it already exists
 IF OBJECT_ID('dbo.CatType', 'U') IS NOT NULL
@@ -36,7 +36,7 @@ GO
 
 ------------------------------------------------------------------------
 
-USE [TutorialDB]
+USE [Catch-A-Cat]
 -- Create a new table called 'CatTable' in schema 'dbo'
 -- Drop the table if it already exists
 IF OBJECT_ID('dbo.CatTable', 'U') IS NOT NULL
@@ -45,25 +45,27 @@ GO
 -- Create the table in the specified schema
 CREATE TABLE dbo.CatTable
 (
+	ID        INT    NOT NULL   PRIMARY KEY, -- primary key column
    Nickname		[NVARCHAR](50)  NOT NULL,
+   CatType		[NVARCHAR](50)  NOT NULL,
    Rarity     [NVARCHAR](50)  NOT NULL,
    ModelID		[NVARCHAR](50)  NOT NULL,
-   TypeID      [NVARCHAR](50)  NOT NULL,
+   --TypeID      [NVARCHAR](50)  NOT NULL,
 );
 GO
 
-SELECT CatType.ID
-FROM CatType
-INNER JOIN CatTable ON CatTable.TypeID=CatType.ID;
+--SELECT CatType.ID
+--FROM CatType
+--INNER JOIN CatTable ON CatTable.TypeID=CatType.ID;
 
 -- Insert rows into table 'CatTable'
 INSERT INTO dbo.CatTable
-   ([TypeID],[NickName],[Rarity],[ModelID])
+   ([ID],[NickName],[CatType], [Rarity], [ModelID])
 VALUES
-   (3, N'Cheese', N'Common', N'tabby_1')
+   (3, N'Cheese', N'Fire', N'Common', N'tabby_1')
 GO
 
 --------------------------------------------------------------------------
 
--- SELECT * FROM dbo.CatTable;
--- SELECT * FROM dbo.CatType;
+SELECT * FROM dbo.CatTable;
+SELECT * FROM dbo.CatType;
