@@ -1,22 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Text.Json;
-using CatchACat_backend.Models;
-using Microsoft.AspNetCore.Hosting;
-using System.Data.Entity;
+﻿using Microsoft.EntityFrameworkCore;
 
 namespace CatchACat_backend.Models
 {
-    public class AppDbContext : DbContext
+    public class AppDbContext(DbContextOptions<AppDbContext> options) : DbContext(options)
     {
-        public AppDbContext(DbContextOptions<AppDbContext> options)
-       : base(options)
-        {
-        }
-
-        public DbSet<Cat> Cats { get; set; }
-
+        public DbSet<CatType> CatType { get; set; }
     }
 }
