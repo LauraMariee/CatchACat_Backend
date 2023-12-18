@@ -1,4 +1,7 @@
-﻿using CatchACat_backend.Models;
+﻿using CatachACat_backend.Models.Dbo;
+using CatachACat_backend.Models.Dto;
+using CatchACat_backend.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CatachACat_backend.api
@@ -9,18 +12,18 @@ namespace CatachACat_backend.api
     {
         private readonly AppDbContext _context = context;
 
-        // GET: api/GetCats
+        // GET: api/Cat
         [HttpGet]
-        public ActionResult<IEnumerable<CatType>> GetCats()
+        public ActionResult<IEnumerable<CompleteCatDbo>> GetCats()
         {
-            return _context.CatType.ToList();
+            return _context.CompleteCat.ToList();
         }
 
-        // GET: api/GetCat
+        // GET: api/Cat/{index}
         [HttpGet("{id}")]
-        public ActionResult<CatType> GetCat(int id)
+        public ActionResult<CompleteCatDbo> GetCatByID(int id)
         {
-            var cat = _context.CatType.Find(id);
+            var cat = _context.CompleteCat.Find(id);
             if (cat == null)
             {
                 return NotFound();
@@ -28,17 +31,27 @@ namespace CatachACat_backend.api
             return cat;
         }
 
-        // POST: api/CreateCat
+        // POST: api/
         [HttpPost]
-        public ActionResult<CatType> CreateCat(CatType cat)
+        public ActionResult<CompleteCatDbo> CreateCat([FromForm]CatCreationDto cat)
         {
             if (cat == null)
             {
                 return BadRequest();
             }
-            _context.CatType.Add(cat);
+
+            //get database to create IDs
+            //Change catcreationdto to catdbo
+            //Save the data in catDBO
+            //
+
+
+            /*send to database
+            _context.Cat.Add(cat);
             _context.SaveChanges();
-            return CreatedAtAction(nameof(GetCat), new { id = cat.Id }, cat);
+            return CreatedAtAction(nameof(GetCatByID), new { id = cat.Id }, cat);
+            */
+            return null; 
         }
     }
 }

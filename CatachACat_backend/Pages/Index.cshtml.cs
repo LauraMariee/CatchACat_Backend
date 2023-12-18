@@ -1,12 +1,12 @@
 using CatachACat_backend.api;
-using CatchACat_backend.Models;
+using CatachACat_backend.Models.Dbo;
 using CatchACat_backend.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace CatchACat_backend.Pages
 {
-	public class IndexModel : PageModel
+    public class IndexModel : PageModel
 	{
 		private readonly ILogger<IndexModel> _logger;
         public DatabaseService DatabaseService;
@@ -18,7 +18,7 @@ namespace CatchACat_backend.Pages
             DatabaseService = databaseService;
         }
 
-        public IEnumerable<CatType> Cats { get; private set; }
+        public IEnumerable<CatTypeDbo> Cats { get; private set; }
 
         public void OnGet()
 		{

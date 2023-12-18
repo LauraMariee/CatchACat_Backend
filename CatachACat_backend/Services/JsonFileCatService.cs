@@ -2,12 +2,12 @@
 using System.IO;
 using System.Linq;
 using System.Text.Json;
-using CatchACat_backend.Models;
+using CatachACat_backend.Models.Dbo;
 using Microsoft.AspNetCore.Hosting;
 
 namespace CatchACat_backend.Services
 {
-	public class JsonFileCatService(IWebHostEnvironment webHostEnvironment)
+    public class JsonFileCatService(IWebHostEnvironment webHostEnvironment)
 	{
 		public IWebHostEnvironment WebHostEnvironment { get; } = webHostEnvironment;
 
@@ -16,10 +16,10 @@ namespace CatchACat_backend.Services
 			get { return Path.Combine(WebHostEnvironment.WebRootPath, "data", "cat.json"); }
 		}
 
-		public IEnumerable<CatType> GetProducts()
+		public IEnumerable<CatTypeDbo> GetProducts()
 		{
 			using var jsonFileReader = File.OpenText(JsonFileName);
-			return JsonSerializer.Deserialize<CatType[]>(jsonFileReader.ReadToEnd(),
+			return JsonSerializer.Deserialize<CatTypeDbo[]>(jsonFileReader.ReadToEnd(),
                 new JsonSerializerOptions
 				{
 					PropertyNameCaseInsensitive = false

@@ -75,3 +75,8 @@ C:\Users\Laura\OneDrive\Desktop\CatchACat_Backend\CatachACat_backend\bin\Debug\n
 C:\Users\Laura\OneDrive\Desktop\CatchACat_Backend\CatachACat_backend\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\Laura\OneDrive\Desktop\CatchACat_Backend\CatachACat_backend\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\Laura\OneDrive\Desktop\CatchACat_Backend\CatachACat_backend\obj\Debug\net8.0\CatachACat_backend.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Laura\OneDrive\Desktop\CatchACat_Backend\CatachACat_backend\bin\Debug\net8.0\System.Net.Http.Formatting.dll
+C:\Users\Laura\OneDrive\Desktop\CatchACat_Backend\CatachACat_backend\bin\Debug\net8.0\Microsoft.AspNetCore.Server.Kestrel.Https.dll
+C:\Users\Laura\OneDrive\Desktop\CatchACat_Backend\CatachACat_backend\bin\Debug\net8.0\Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions.dll
+C:\Users\Laura\OneDrive\Desktop\CatchACat_Backend\CatachACat_backend\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\Laura\OneDrive\Desktop\CatchACat_Backend\CatachACat_backend\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
