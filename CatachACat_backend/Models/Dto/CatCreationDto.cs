@@ -4,9 +4,6 @@ namespace CatachACat_backend.Models.Dto
 {
     public class CatCreationDto
     {
-        [Key]
-        public required int Id { get; set; }
-
         [Required]
         public required int cat_type_ID { get; set; }
 

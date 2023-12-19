@@ -43,7 +43,7 @@ namespace CatachACat_backend.api
             CatCreationDto catCreation = cat;
             var newCatData = new CatDbo()
             {
-                Id = catCreation.Id,
+                Id = 0, //Not set anywhere - auto generated
                 cat_type_ID = catCreation.cat_type_ID,
                 name_ID = catCreation.name_ID,
                 rarity_ID = catCreation.rarity_ID,
