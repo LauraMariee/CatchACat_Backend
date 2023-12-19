@@ -51,7 +51,7 @@ IF OBJECT_ID('dbo.Cat', 'U') IS NOT NULL
 -- Create the table in the specified schema
 CREATE TABLE dbo.Cat
 (
-	ID				INT NOT NULL   PRIMARY KEY, -- primary key column
+	ID int IDENTITY(1,1) NOT NULL PRIMARY KEY, --Primary 
 	cat_type_ID     INT NOT NULL,
 	name_ID			INT NOT NULL,
 	rarity_ID		INT NOT NULL,
@@ -59,6 +59,9 @@ CREATE TABLE dbo.Cat
 );
 GO
 
+-- SET IDENTITY_INSERT to ON.  
+SET IDENTITY_INSERT dbo.Cat ON;  
+GO 
 -- Insert rows into table 'CatTable'
 INSERT INTO dbo.Cat
    ([ID],[cat_type_ID],[name_ID], [rarity_ID], [model_name])

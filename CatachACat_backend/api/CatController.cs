@@ -33,25 +33,28 @@ namespace CatachACat_backend.api
 
         // POST: api/
         [HttpPost]
-        public ActionResult<CompleteCatDbo> CreateCat([FromForm]CatCreationDto cat)
+        public ActionResult<CatDbo> CreateCat([FromForm]CatCreationDto cat)
         {
             if (cat == null)
             {
                 return BadRequest();
             }
 
-            //get database to create IDs
-            //Change catcreationdto to catdbo
-            //Save the data in catDBO
-            //
+            CatCreationDto catCreation = cat;
+            var newCatData = new CatDbo()
+            {
+                Id = catCreation.Id,
+                cat_type_ID = catCreation.cat_type_ID,
+                name_ID = catCreation.name_ID,
+                rarity_ID = catCreation.rarity_ID,
+                model_name = catCreation.model_name,
+            }; 
 
-
-            /*send to database
-            _context.Cat.Add(cat);
+            //send to database
+            _context.Cat.Add(newCatData);
             _context.SaveChanges();
-            return CreatedAtAction(nameof(GetCatByID), new { id = cat.Id }, cat);
-            */
-            return null; 
+            return CreatedAtAction(nameof(GetCatByID), new { id = newCatData.Id }, newCatData);
+
         }
     }
 }
